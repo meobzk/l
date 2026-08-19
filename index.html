@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Android Setup Hub</title>
+<title>Android Setup Hub - Page L</title>
 <style>
     body{font-family:Arial;background:#eef2f5;max-width:900px;margin:auto;padding:16px}
     .card{background:#fff;border-radius:12px;padding:16px;margin:12px 0}
@@ -21,7 +21,7 @@
 <body>
 
 <div class="card">
-    <h2>Android Setup Hub</h2>
+    <h2>Android Setup Hub - Page L</h2>
     <div id="cnt"></div>
     <div id="emails"></div>
 </div>
@@ -105,7 +105,8 @@ const firebaseConfig = {
     projectId: "meobzk"
 };
 const db = getDatabase(initializeApp(firebaseConfig));
-const hubRef = ref(db, 'hub');
+// Dùng nhánh hub_l riêng biệt cho trang l
+const hubRef = ref(db, 'hub_l');
 
 const wifi24List1 = [
     "Cafe Hana", "Kissa Sakura", "Tokyo Coffee", "Matcha Hub", "Nihon Cafe",
